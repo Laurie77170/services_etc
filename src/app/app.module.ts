@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LaurieComponent } from './laurie/laurie.component';
+import { SandraComponent } from './sandra/sandra.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LaurieComponent
+    LaurieComponent,
+    SandraComponent
   ],
   imports: [
     BrowserModule,
